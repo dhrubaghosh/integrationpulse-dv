@@ -3,7 +3,7 @@ import data from "../data/mockdata.json"; // adjust path if needed
 const severityColors = {
   LOW: "bg-green-700 ",
   HIGH: "bg-amber-400 ",
-  CRITICAL: "bg-red-400"
+  CRITICAL: "bg-red-400",
 };
 
 export default function InterfaceMatrix() {
@@ -21,6 +21,7 @@ function FlipCard({ item }) {
 
   return (
     <div className="group w-96 h-28 [perspective:1000px] ml-12">
+      
       <div
         className={`relative h-full w-full transition-transform duration-700 [transform-style:preserve-3d] rounded-2xl shadow-xl cursor-pointer
         ${canFlip ? "group-hover:[transform:rotateY(180deg)]" : ""}`}

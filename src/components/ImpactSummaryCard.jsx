@@ -35,7 +35,7 @@ export default function ImpactSummaryCard() {
 
       {/* Avatars or placeholders */}
       <div className="flex -space-x-2">
-        {data.slice(0, 5).map((item) => (
+        {data.slice(0, 9).map((item) => (
           <div
             key={item.id}
             className="w-8 h-8 rounded-full bg-red-300 flex items-center justify-center text-xs font-bold text-red-900 border-2 border-yellow-200"

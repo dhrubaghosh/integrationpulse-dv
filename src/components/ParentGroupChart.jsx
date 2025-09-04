@@ -41,7 +41,7 @@ export default function ParentGroupChart() {
       ...baseChart,
     },
     title: {
-      text: "Group Distribution",
+      text: "Granular Distribution",
       style: {
         fontFamily: "Montserrat, sans-serif",
         fontWeight: "600",
@@ -118,7 +118,7 @@ export default function ParentGroupChart() {
 
       {selectedGroup && (
         <button
-          className="mt-4 px-4 py-2 bg-gray-200 rounded hover:bg-gray-300"
+          className="mt-4 px-4 py-2 bg-gray-200 rounded hover:bg-gray-300 font-semibold text-xs"
           onClick={() => setSelectedGroup(null)}
         >
           ← Back to All Groups

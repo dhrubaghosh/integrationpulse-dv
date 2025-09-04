@@ -16,8 +16,10 @@ export default function HomePage() {
       </div>
       <div className="mb-20">
         <LastUpdated />
+        <h3 className="font-black">Systems/Interfaces Health:</h3>
         <InterfaceMatrix />
       </div>
+      <h3 className="font-black">Impact & Insights: </h3>
       <div className="grid grid-cols-3 gap-6 p-6 ml-12 font-montserrat">
         {/* Left Column */}
         <div className="col-span-1 space-y-4">
