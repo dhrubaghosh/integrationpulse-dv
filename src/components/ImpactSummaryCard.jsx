@@ -9,7 +9,7 @@ export default function ImpactSummaryCard() {
     <div className="bg-yellow-200 rounded-2xl p-6 w-96 shadow-md text-gray-800">
       <div className="flex justify-between items-center mb-4">
         <h2 className="text-sm font-semibold tracking-wide">TOTAL IMPACT SUMMARY</h2>
-        <button className="bg-yellow-300 p-2 rounded-full shadow">
+        <button className="bg-yellow-300 p-2 rounded-full shadow" onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>
           ⬆
         </button>
       </div>
