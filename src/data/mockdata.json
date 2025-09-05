@@ -1,101 +1,95 @@
 [
   {
-    "id": "intgra-101",
-    "keyName": "System 01",
-    "matchFound": true,
+    "id": "int-101",
+    "keyName": "i018 (OBD)",
+    "severity": "CRITICAL",
     "alertedAt": "2025-09-03T09:45:10Z",
-    "matchCount": 3,
     "reason": "Timeout while connecting to ERP system",
-    "severity": "LOW",
-    "parentGroup": "InterChange",
-    "status": "Open"
+    "matchCount": 3
   },
   {
-    "id": "intgra-102",
-    "keyName": "System 02",
-    "matchFound": true,
-    "alertedAt": "2025-09-03T10:15:30Z",
-    "matchCount": 1,
+    "id": "int-102",
+    "keyName": "i055",
+    "severity": "CRITICAL",
+    "alertedAt": "2025-09-03T10:12:30Z",
     "reason": "File not found in inbound directory",
-    "severity": "CRITICAL",
-    "parentGroup": "Integrator",
-    "status": "Open"
+    "matchCount": 1
   },
   {
-    "id": "intgra-103",
-    "keyName": "System 03",
-    "matchFound": true,
-    "alertedAt": "2025-09-03T10:42:05Z",
-    "matchCount": 7,
+    "id": "int-103",
+    "keyName": "i056",
+    "severity": "CRITICAL",
+    "alertedAt": "2025-09-03T10:28:45Z",
     "reason": "Partner system connection refused",
-    "severity": "CRITICAL",
-    "parentGroup": "Integrator",
-    "status": "Open"
+    "matchCount": 6
   },
+  
+
   {
-    "id": "intgra-104",
-    "keyName": "System 04",
-    "matchFound": true,
-    "alertedAt": "2025-09-03T11:01:20Z",
-    "matchCount": 2,
+    "id": "int-201",
+    "keyName": "i101",
+    "severity": "MEDIUM",
+    "alertedAt": "2025-09-03T10:55:20Z",
     "reason": "Schema validation failed for payload",
-    "severity": "HIGH",
-    "parentGroup": "Integrator",
-    "status": "Open"
+    "matchCount": 2
   },
   {
-    "id": "intgra-105",
-    "keyName": "System 05",
-    "matchFound": true,
-    "alertedAt": "2025-09-03T11:18:47Z",
-    "matchCount": 4,
-    "reason": "Duplicate message detected",
-    "severity": "CRITICAL",
-    "parentGroup": "Integrator",
-    "status": "Open"
-  },
-  {
-    "id": "intgra-106",
-    "keyName": "System 06",
-    "matchFound": true,
-    "alertedAt": "2025-09-03T11:35:55Z",
-    "matchCount": 1,
-    "reason": "Authentication failure with partner system",
-    "severity": "LOW",
-    "parentGroup": "Integrator",
-    "status": "Open"
-  },
-  {
-    "id": "intgra-107",
-    "keyName": "System 07",
-    "matchFound": true,
-    "alertedAt": "2025-09-03T12:05:12Z",
-    "matchCount": 6,
-    "reason": "Disk space threshold exceeded on B2Bi server",
-    "severity": "CRITICAL",
-    "parentGroup": "InterChange",
-    "status": "Open"
-  },
-  {
-    "id": "intgra-108",
-    "keyName": "System 08",
-    "matchFound": true,
-    "alertedAt": "2025-09-03T12:22:33Z",
-    "matchCount": 2,
+    "id": "int-202",
+    "keyName": "i102",
+    "severity": "MEDIUM",
+    "alertedAt": "2025-09-03T11:15:40Z",
     "reason": "Delayed acknowledgment from target system",
-    "severity": "HIGH",
-    "parentGroup": "InterChange",
-    "status": "Open"
+    "matchCount": 5
+  },
+
+  {
+    "id": "int-204",
+    "keyName": "i104",
+    "severity": "MEDIUM",
+    "alertedAt": "2025-09-03T12:10:15Z",
+    "reason": "Duplicate message detected",
+    "matchCount": 6
   },
   {
-    "id": "intgra-109",
-    "keyName": "Interface i846",
-    "matchFound": true,
-    "alertedAt": "2025-09-03T12:45:09Z",
-    "matchCount": 3,
+    "id": "int-205",
+    "keyName": "i105",
+    "severity": "MEDIUM",
+    "alertedAt": "2025-09-03T12:33:59Z",
+    "reason": "Processing delay due to high load",
+    "matchCount": 7
+  },
+
+  {
+    "id": "int-301",
+    "keyName": "sys-201",
+    "severity": "LOW",
+    "alertedAt": "2025-09-03T12:25:55Z",
     "reason": "SSL handshake failure",
-    "severity": "CRITICAL",
-    "parentGroup": "InterChange",
-    "status": "Open"
+    "matchCount": 3
+  },
+  {
+    "id": "int-302",
+    "keyName": "sys-202",
+    "severity": "LOW",
+    "alertedAt": "2025-09-03T12:40:12Z",
+    "reason": "Authentication failure with partner system",
+    "matchCount": 1
+  },
+
+  {
+    "id": "int-304",
+    "keyName": "sys-204",
+    "severity": "LOW",
+    "alertedAt": "2025-09-03T13:05:33Z",
+    "reason": "Slow response time from target application",
+    "matchCount": 4
+  },
+  {
+    "id": "int-305",
+    "keyName": "sys-205",
+    "severity": "LOW",
+    "alertedAt": "2025-09-03T13:18:47Z",
+    "reason": "Minor validation warning",
+    "matchCount": 2
   }
 ]
